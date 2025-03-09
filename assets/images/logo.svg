@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .text-primary { fill: #3498db; }
+    .icon-primary { fill: #3498db; }
+    .icon-secondary { fill: #2ecc71; }
+  </style>
+  
+  <!-- Car icon -->
+  <g transform="translate(0, 5)">
+    <path class="icon-primary" d="M12,18.92C12,19.5 11.5,20 10.92,20C10.34,20 9.84,19.5 9.84,18.92C9.84,18.34 10.34,17.84 10.92,17.84C11.5,17.84 12,18.34 12,18.92M7.08,18.92C7.08,19.5 6.58,20 6,20C5.42,20 4.92,19.5 4.92,18.92C4.92,18.34 5.42,17.84 6,17.84C6.58,17.84 7.08,18.34 7.08,18.92M13,14.08V16H2V11.25L3.5,6.5H11.5L13,11.25V14.08M6.33,8.08L6.08,9.08H10.92L10.67,8.08H6.33M12.5,5.08H2.5L1.5,10.08V17.08C1.5,17.63 1.95,18.08 2.5,18.08H3.08C3.08,16.95 3.97,16.08 5.08,16.08S7.08,16.95 7.08,18.08H8.92C8.92,16.95 9.8,16.08 10.92,16.08S12.92,16.95 12.92,18.08H13.5C14.05,18.08 14.5,17.63 14.5,17.08V10.08L13.5,5.08Z"/>
+  </g>
+  
+  <!-- Location pin icon -->
+  <g transform="translate(20, 5)">
+    <path class="icon-secondary" d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="45" y="30" class="logo-text text-primary" font-size="24">Driving Logbook</text>
+</svg>
